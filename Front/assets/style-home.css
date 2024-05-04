@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 1% 1% 0 1%;
+}
+
+.head{
+    display: flex;
+    justify-content: baseline;
+    background-color: rgba(74, 2, 130, 0.895);
+    
+}
+
+.head h1{
+    padding: 20px;
+    font-size: 50px;
+    width: 190px;
+    color: aliceblue;
+}
+.head input{
+    height: 20px;
+    width: 190px;
+    margin-top: 40px;
+    margin-left: 0px;
+    
+}
+.head button{
+    height: 20px;
+    width: 20px;
+    margin-top: 40px;
+}
+
+.link-menu{
+    display: flex;
+    margin-left: 20%;
+    gap: 10px;
+    border: solid;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align:center;
+}
+.link-menu a{
+    padding-top: auto;
+    width: 110px;
+}
+
+.matricula{
+    background-color: aqua;
+    border-radius: 1px 1px 10px 1px;
+    width: 10px;
+    height: 20px;
+}
+
