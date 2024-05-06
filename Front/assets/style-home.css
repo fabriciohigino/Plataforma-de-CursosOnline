@@ -1,13 +1,20 @@
 *{
     padding: 0;
-    margin: 1% 1% 0 1%;
+    margin: 0;
+
 }
 
+body{
+    background-image: url(./img/pexels-neo-853421-2653362.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .head{
     display: flex;
     justify-content: baseline;
-    background-color: rgba(74, 2, 130, 0.895);
-    
+    background-color: black;
+    border-radius: 10px;
+    align-items: center;
 }
 
 .head h1{
@@ -18,35 +25,235 @@
 }
 .head input{
     height: 20px;
-    width: 190px;
-    margin-top: 40px;
+    min-width: 200px;
     margin-left: 0px;
+    background-color:black;
+    color: rgb(63, 128, 136);
+    border: 1px solid;
     
 }
 .head button{
     height: 20px;
     width: 20px;
-    margin-top: 40px;
 }
 
 .link-menu{
     display: flex;
     margin-left: 20%;
     gap: 10px;
-    border: solid;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     text-align:center;
+    align-items: center;
+    width: 560px;
 }
 .link-menu a{
     padding-top: auto;
     width: 110px;
+    text-decoration: none;
+    color: aliceblue;
+    
 }
 
 .matricula{
-    background-color: aqua;
+    display: flex;
+    background-color:  rgb(63, 128, 136);
     border-radius: 1px 1px 10px 1px;
     width: 10px;
-    height: 20px;
+    height: 40px;
+    align-items: center;
+    justify-content: center; 
 }
 
+.text{
+    margin: 20px 0 0 5%;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+}
+.text p{
+    color: rgb(63, 128, 136);
+}
+.paragrafo{
+    font-size: 20px;
+}
+
+.cursos{
+    list-style: none;
+    display: flex;
+    max-width: 600px;
+    min-height: 300px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    padding: 0;
+    color:  rgb(63, 128, 136);
+    margin-left: 10%;
+    gap: 10px;
+    
+}
+.curso1{
+    border: solid;
+    width: 130px;
+    height: 150px;
+    border-radius: 1px 1px 20px 1px;
+    background-color: rgba(240, 248, 255, 0.097);
+}
+.curso1:hover{
+    border: 3px  rgb(36, 167, 169) solid;
+    background-color: rgba(4, 255, 0, 0.166);
+}
+.curso1 h5{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.curso1 p{
+    margin-top: 15px;
+}
+.curso2{
+    border: solid;
+    width: 130px;
+    height: 150px;
+    border-radius: 1px 1px 20px 1px;
+    background-color:  rgba(240, 248, 255, 0.097);
+}
+.curso2:hover{
+    border: 3px  rgb(36, 167, 169) solid;
+    background-color: rgba(4, 255, 0, 0.166);
+}
+.curso2 h5{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.curso2 p{
+    margin-top: 15px;
+}
+.curso3{
+    border: solid;
+    width: 130px;
+    height: 150px;
+    border-radius: 1px 1px 20px 1px;
+    background-color:  rgba(240, 248, 255, 0.097);
+}
+.curso3:hover{
+    border: 3px  rgb(36, 167, 169) solid;
+    background-color: rgba(4, 255, 0, 0.166);
+}
+.curso3 h5{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.curso3 p{
+    margin-top: 15px;
+}
+.curso4{
+    border: solid;
+    width: 130px;
+    height: 150px;
+    border-radius: 1px 1px 20px 1px;
+    background-color:  rgba(240, 248, 255, 0.097);
+}
+.curso4:hover{
+    border: 3px  rgb(36, 167, 169) solid;
+    background-color: rgba(4, 255, 0, 0.166);
+}
+.curso4 h5{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.curso4 p{
+    margin-top: 15px;
+}
+.curso5{
+    border: solid;
+    width: 130px;
+    height: 150px;
+    border-radius: 1px 1px 20px 1px;
+    background-color:  rgba(240, 248, 255, 0.097);
+}
+.curso5:hover{
+    border: 3px  rgb(36, 167, 169) solid;
+    background-color: rgba(4, 255, 0, 0.166);
+}
+.curso5 h5{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.curso5 p{
+    margin-top: 15px;
+}
+.curso6{
+    border: solid;
+    width: 130px;
+    height: 150px;
+    border-radius: 1px 1px 20px 1px;
+    background-color:  rgba(240, 248, 255, 0.097);
+}
+.curso6:hover{
+    border: 3px  rgb(36, 167, 169) solid;
+    background-color: rgba(4, 255, 0, 0.166);
+}
+.curso6 h5{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.curso6 p{
+    margin-top: 15px;
+}
+.curso7{
+    border: solid;
+    width: 130px;
+    height: 150px;
+    border-radius: 1px 1px 20px 1px;
+    background-color:  rgba(240, 248, 255, 0.097);
+}
+.curso7:hover{
+    border: 3px  rgb(36, 167, 169) solid;
+    background-color: rgba(4, 255, 0, 0.166);
+}
+.curso7 h5{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.curso7 p{
+    margin-top: 15px;
+}
+.curso8{
+    border: solid;
+    width: 130px;
+    height: 150px;
+    border-radius: 1px 1px 20px 1px;
+    background-color:  rgba(240, 248, 255, 0.097);
+}
+.curso8:hover{
+    border: 3px  rgb(36, 167, 169) solid;
+    background-color: rgba(4, 255, 0, 0.166);
+}
+.curso8 h5{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.curso8 p{
+    margin-top: 15px;
+}
+
+footer{
+    margin-top: 10%;
+    text-align: center;
+    color: aliceblue;
+}
+.redessociais{
+    display: flex;
+    margin: 5% 5% 0 0;
+    color: aliceblue;
+    justify-content: end;
+}
+.redessociais h4{
+    display: flex;
+    background-color: rgba(240, 248, 255, 0.097);
+    height: 30px;
+    width: 110px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
